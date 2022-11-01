@@ -14,7 +14,7 @@ const initStorage = () => {
 
 // MODEL
 
-initStorage();
+
 
 let booksArray = getStorage("model");
 
@@ -46,6 +46,7 @@ const render = () => {
 };
 
 const run = () => {
+  initStorage();
   render();
 };
 
